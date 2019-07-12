@@ -1,0 +1,364 @@
+body {
+font-family: 'Trebuchet MS', Arial, sans-serif;
+margin: 0px;
+padding: 0px;
+text-justify:justify;
+}
+
+/*enlever les puces */
+
+.menu{
+
+margin: 0px;
+padding: 0px;
+overflow: hidden;
+
+
+}
+/*ajouter couleur de fond pour ellement nav */
+
+
+/*enlever le trait de soulignement de nos liens et changer la couleur du texte de ceux-ci afin que tout devienne lisible.*/
+.menu>li>a{
+
+text-decoration: aquamarine;
+justify-content: space-between;
+
+
+
+}
+.menu{display: flex;
+    
+}
+#title_principale{
+    height: 65px;
+
+display:flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.menu>li{
+    margin: 0 20px;
+     list-style-type:none;
+    }
+
+
+    #banniere_image{
+
+height: 67px;
+display:flex;
+justify-content: space-around;
+align-items: center;
+  }
+
+  #banniere_description{
+
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aquamarine;
+
+
+  }
+  .card{width: 512px ;padding: 20px}
+          .card img{
+
+            display: block;
+            margin-left: auto;
+            margin-right: auto
+
+          }
+
+  #paragraphe{
+
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    display:flex;
+    width: 100%;
+    padding: 60px;
+
+  }
+  #paragraphe>p{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.1em;
+    word-wrap: break-word;
+    margin: auto;
+    padding:10px;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+
+  }
+  #banniere{
+    margin: 50px;
+    padding: 50px;
+    overflow: hidden;
+    display:flex;
+    justify-content:space-around;
+
+  }
+  #banniere>.banniere1{
+
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 0.5em;
+background-color: aquamarine;
+
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+
+
+  }
+
+ #banniere> .banniere2{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.5em;
+    background-color: cornflowerblue;
+  
+    display: flex;
+justify-content: space-between;
+flex-direction: column;
+
+  }
+  
+ 
+.menu1{
+
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    
+    
+    } 
+  .menu1>li>a{
+
+    text-decoration: aquamarine;
+    justify-content: space-between;
+    
+    
+    
+    }
+    .menu1{display: flex;
+        
+    }
+    #menu_1{
+        height: 65px;
+    
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:0px;
+    padding: 50px;
+    
+    }
+    .menu1>li{
+        margin: 0 20px;
+         list-style-type:none;
+        }
+    
+        #menu_2{
+
+            display:flex;
+            
+            flex-wrap: wrap;
+           justify-content: space-between;
+            align-items: center;
+            
+    background-image: url("https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/b9y8vnlz0ff3mucdgxpp");
+            background-repeat: no-repeat;
+height: 500px;
+background-size: 50%;
+background-color: #00CCB1;
+background-position-x: 10px;
+background-position-y: 80px;
+
+position:relative;
+padding: 20px;
+
+
+        }
+        #menu_2> .pg{
+
+
+
+        }
+     #photo{
+
+display: flex;
+justify-content: space-around;  
+align-items: center;
+
+
+      }
+        .pg1{
+
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           /* font-size: 0.5em;*/
+         
+            background-color: aliceblue;
+           
+
+           
+        } 
+        .pg1 h1{
+
+            color: cadetblue;
+
+
+       }
+        .pg2{
+
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           /* font-size: 0.5em;*/
+         
+            background-color: aliceblue;
+        
+            width: 228px;
+            height: 257px;
+
+
+
+        } 
+
+        .pg2 h1{
+
+            color: cadetblue;
+
+       }
+         .pg3{
+
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           /* font-size: 0.5em;*/
+         
+            background-color: aliceblue;
+        
+          
+            width: 236px;
+            height: 246px;
+
+
+
+
+
+        } 
+
+        .pg3 h1{
+
+            color: cadetblue;
+
+        
+       }
+         .pg4{
+
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           /* font-size: 0.5em;*/
+         
+            background-color: aliceblue;
+            width: 236px;
+            height: 246px;
+
+
+           
+
+
+        } 
+        
+        .pg4 h1{
+
+            color: cadetblue;
+
+        
+       }
+     #logo {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            width: 50px;
+            display: block;
+    margin-left: auto;
+    margin-right: auto
+          }
+         
+          #para{
+
+            text-align: center;
+            padding: 20px;
+            
+
+
+          }
+          #para h1{
+
+               color: aquamarine;
+
+          }
+#imgs{
+
+   
+  padding: 100px;
+  margin: 50px;
+    display: flex;
+justify-content: space-around;  
+align-items: center;
+
+flex-wrap: wrap;
+    
+
+}
+          #btn{
+           display:block;
+            position:relative;
+          
+            border:none;
+            width:111px;
+            height:32px;
+            background-color: cornflowerblue;
+            color: #ddd;
+           
+          cursor: pointer;
+
+
+
+          }
+          .shadow{cursor: pointer;}
+          .shadow:hover{box-shadow: -9px 4px 34px -17px rgba(0,0,0,0.75);
+          }
+
+         #inp-warsaw{
+display: block;
+border: none;
+overflow: hidden;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+
+         }
+#btn_warsaw{
+
+display: flex;
+justify-content: space-between;
+
+
+}
+
+
+          #para1{
+
+            text-align: center;
+            
+
+
+          }
+          #para1 p{
+
+               color: dimgray;
+
+          }
+          
+
+     
